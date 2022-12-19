@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="netflix.css" />
+  </head>
+  <body>
+    <div id="img"><img  src="images.png" width="250" height="50" alt="" /></div>
+    <h3>Thank you signing up at Netflix. Tell us more about yourself</h3>
+    <form action="">
+      <div><label class="labels" for="name">Name</label></div>
+      <div>
+        <input class="inputs" type="text" placeholder="Enter Your Name" />
+      </div>
+      <div><label class="labels" for="age">Age</label></div>
+      <div><input type="text" class="inputs" placeholder="Age" /></div>
+      <div><label class="labels" for="email">Email</label></div>
+      <div>
+        <input type="email" class="inputs" placeholder="Enter your mail" />
+      </div>
+      <div><label class="labels" for="series">Content Type</label></div>
+      <div>
+        <select name="series" class="inputs" id="series">
+          Series
+          <option value="series">Series</option>
+          <option value="film1">Film1</option>
+          <option value="film2">Fİlm2</option>
+          <option value="film3">Film3</option>
+          <option value="film4">Film4</option>
+        </select>
+      </div>
+      <label class="labels" name="type" for="type">Movie Type</label>
+      <div class="aa">
+        <input type="checkbox" name="type" id="kutu" /> <label for="kutu">Comedy</label> 
+      </div>
+      <div class="aa">
+        <input type="checkbox" name="type" id="kutu2" /> <label for="kutu2">Action</label> 
+      </div>
+      <div class="aa">
+        <input type="checkbox" name="type" id="kutu3" /> <label for="kutu3">Romance</label> 
+      </div>
+      <div><label class="labels" name="isim" for="gender">Gender</label></div>
+      <div class="aa">
+        <input type="radio" name="isim"  id="gender" /><label for="gender">Male</label>
+      </div>
+
+      <div class="aa">
+        <input type="radio" name="isim"  id="gender1" /><label for="gender1">Female</label>
+      </div>
+
+      <div class="aa">
+        <input type="radio" name="isim"  id="gender2" /><label for="gender2">Other</label>
+      </div>
+      <div><label class="labels" for="text">Feed Back</label></div>
+      <div>
+        <textarea
+          class="inputs"
+          name="area"
+          id="area"
+          placeholder="Any comment"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </div>
+      <input id="btn" value="Submit" type="submit" />
+    </form>
+  </body>
+</html>
