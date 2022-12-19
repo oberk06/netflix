@@ -1,1 +1,1 @@
-[netflix](https://github.com/oberk06/netflix)
+[netflix](https://oberk06.github.io/netflix/)
